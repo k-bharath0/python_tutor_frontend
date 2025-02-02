@@ -11,8 +11,8 @@ function ChatPage({ selectedCharacter }) {
   const chatWindowRef = useRef(null);
 
   const characterImages = {
-    PyBuddy: "./images/pybot.jpeg",
-    CodeBot: "./images/robot.jpeg",
+    PyBuddy: "https://i.ibb.co/v46g9pZQ/pybot.jpg",
+    CodeBot: "https://i.ibb.co/SqXvrYd/robot.jpg",
   };
 
   // Store selected character in localStorage if not null
@@ -115,7 +115,7 @@ function ChatPage({ selectedCharacter }) {
               {msg.sender === "user" ? (
                 <>
                   <p>{msg.text}</p>
-                  <img src="./images/user.jpeg" className="chat-img" />
+                  <img src="https://i.ibb.co/Q7qD1bKB/user.jpg" className="chat-img" />
                 </>
               ) : (
                 <>
