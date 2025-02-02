@@ -6,12 +6,12 @@ function CharacterSelect({ selectedCharacter,onCharacterSelect }) {
   const characters = [
     {
       name: "PyBuddy",
-      image: "./images/pybot.jpeg", // Placeholder image URL for PyBuddy
+      image: "https://i.ibb.co/v46g9pZQ/pybot.jpg", // Placeholder image URL for PyBuddy
       description: "PyBuddy, the playful Python! He loves teaching coding through fun stories.",
     },
     {
       name: "CodeBot",
-      image: "./images/robot.jpeg", // Placeholder image URL for CodeBot
+      image: "https://i.ibb.co/SqXvrYd/robot.jpg", // Placeholder image URL for CodeBot
       description: "CodeBot, the friendly AI robot! He explains coding step-by-step and gives you challenges.",
     },
   ];
