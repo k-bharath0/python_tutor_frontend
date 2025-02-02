@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div className="home-page">
+      <div style={{ display: "flex", justifyContent: "center" }}>
       <h1>Welcome to Python Tutor for Kids!</h1>
+      </div>
       <h2>✨ **What Makes This Special?**</h2>
       <ul>
         <li>👦 **Personalized Learning** – AI adjusts to each child's learning pace.</li>
@@ -30,9 +32,11 @@ function HomePage() {
         <li>🛠️ **Generate an API Key**: Click **Developer Key → Generate Token**.</li>
         <li>✏️ **Enter Your Key**: Paste it into the API Key field on the chat page.</li>
       </ol>
-      <Link to="/char">
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+      <Link to="/char" style={{textAlign:"center"}}>
         <button className="homeButton">Start Learning 🚀</button>
       </Link>
+      </div>
     </div>
   );
 }
